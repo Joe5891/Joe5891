@@ -1,0 +1,175 @@
+2021-08-13 18:33:24,157 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: Start
+2021-08-13 18:33:24,159 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: info = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2021-08-13 18:33:24,159 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: isConnected = true
+2021-08-13 18:33:24,159 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: Type = WIFI
+2021-08-13 18:33:26,078 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: Start
+2021-08-13 18:33:26,079 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: info = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2021-08-13 18:33:26,080 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: isConnected = true
+2021-08-13 18:33:26,080 INFO  [utility.AppUtil]-[89] AppUtil :: getInternetConnectionType :: Type = WIFI
+2021-08-13 18:33:35,525 INFO  [utility.AppUtil]-[89] sGetUserInfo
+2021-08-13 18:33:35,526 INFO  [utility.AppUtil]-[89] sGetUserInfo
+2021-08-13 18:33:35,526 INFO  [utility.AppUtil]-[89] GetUserInfo_API  : {Email=139441721704917, Password=0OinKZda3Bqx/+qRf313tmFtzkI=, TimeStamp=1628894015525, MachineGUID=, MobileNo=, IsLogin=1, IsSigninRequest=true}
+2021-08-13 18:33:35,795 INFO  [utility.DataStorage]-[89] DataStorage::sReadPendingRequestsHash:: Exception error:libcore.io.IoBridge.open(IoBridge.java:492)
+2021-08-13 18:33:35,796 INFO  [utility.DataStorage]-[89] DataStorage::sReadPendingRequestsHash:: Exception error:java.io.FileNotFoundException: /data/user/0/com.genie9.gcloudbackup/files/MachinesList: open failed: ENOENT (No such file or directory)
+2021-08-13 18:33:35,811 INFO  [utility.DataStorage]-[89] DataStorage::sReadPendingRequestsHash:: Exception error:libcore.io.IoBridge.open(IoBridge.java:492)
+2021-08-13 18:33:35,812 INFO  [utility.DataStorage]-[89] DataStorage::sReadPendingRequestsHash:: Exception error:java.io.FileNotFoundException: /data/user/0/com.genie9.gcloudbackup/files/MachinesList: open failed: ENOENT (No such file or directory)
+2021-08-13 18:33:35,812 INFO  [utility.AppUtil]-[89] GetUserInfo onFailedResponse  : Invalid socialId 2006
+2021-08-13 18:33:35,832 INFO  [utility.AppUtil]-[89] EMAILLOG - LOGIN FRAGMENT - Settings User Email with en empty string from handleUIError
+2021-08-13 19:27:08,467 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 19:27:08,481 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-13 19:27:08,508 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: Binding Service.
+2021-08-13 19:27:08,513 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 19:27:08,515 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 19:27:08,529 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 19:27:08,618 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 19:27:08,623 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 19:27:08,886 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: skuDetails does not contain detail_list, response = 2
+2021-08-13 19:27:08,886 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Error refreshing inventory (querying prices of items). (response: 2:Unknown)
+2021-08-13 19:29:51,272 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 19:29:51,297 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-13 19:29:51,302 INFO  [receivers.BootCompletedReceiver]-[89] BootCompletedReceiver : Boot Completed
+2021-08-13 19:29:51,317 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: Binding Service.
+2021-08-13 19:29:51,371 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 19:29:51,379 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 19:29:51,389 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 19:29:51,482 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 19:29:51,487 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 19:29:51,520 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-13 19:29:51,520 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-13 19:29:51,521 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-13 19:29:51,540 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-13 19:29:51,541 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-13 19:34:47,797 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 19:34:47,798 INFO  [receivers.BootCompletedReceiver]-[89] BootCompletedReceiver : Boot Completed
+2021-08-13 19:34:47,819 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: Start Setup
+2021-08-13 19:34:47,823 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: Binding Service.
+2021-08-13 19:34:47,837 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 19:34:47,838 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 19:34:47,856 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 19:34:47,942 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 19:34:47,950 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 19:34:47,966 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-13 19:34:47,967 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-13 19:34:47,968 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-13 19:34:47,976 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-13 19:34:47,977 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-13 19:36:22,879 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 19:36:22,887 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-13 19:36:22,890 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: Binding Service.
+2021-08-13 19:36:22,912 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 19:36:22,912 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 19:36:22,931 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 19:36:23,035 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 19:36:23,037 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 19:36:23,097 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-13 19:36:23,107 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-13 19:36:23,107 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-13 19:36:23,118 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-13 19:36:23,120 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-13 21:27:53,586 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 21:27:53,600 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-13 21:27:53,636 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: Binding Service.
+2021-08-13 21:27:53,638 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 21:27:53,639 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 21:27:53,650 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 21:27:53,760 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 21:27:53,765 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 21:27:54,253 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-13 21:27:54,254 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-13 21:27:54,262 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-13 21:27:56,833 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-13 21:27:56,834 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-13 21:28:11,538 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 21:28:11,540 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-13 21:28:11,543 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: Binding Service.
+2021-08-13 21:28:11,558 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 21:28:11,565 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 21:28:11,591 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 21:28:11,697 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 21:28:11,698 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 21:28:12,029 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-13 21:28:12,030 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-13 21:28:12,038 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-13 21:28:12,590 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-13 21:28:12,591 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-13 21:30:28,222 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 21:30:28,230 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-13 21:30:28,233 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: Binding Service.
+2021-08-13 21:30:28,247 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 21:30:28,248 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 21:30:28,259 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 21:30:28,363 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 21:30:28,366 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 21:30:28,398 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-13 21:30:28,399 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-13 21:30:28,400 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-13 21:30:28,449 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-13 21:30:28,451 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-13 21:33:01,983 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-13 21:33:01,990 INFO  [receivers.BootCompletedReceiver]-[89] BootCompletedReceiver : Boot Completed
+2021-08-13 21:33:01,995 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: Start Setup
+2021-08-13 21:33:02,002 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: Binding Service.
+2021-08-13 21:33:02,024 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-13 21:33:02,026 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-13 21:33:02,081 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-13 21:33:02,133 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-13 21:33:02,136 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-13 21:33:02,191 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-13 21:33:02,193 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-13 21:33:02,194 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-13 21:33:02,208 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-13 21:33:02,210 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-14 00:08:00,831 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-14 00:08:00,844 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-14 00:08:00,873 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: Binding Service.
+2021-08-14 00:08:01,197 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-14 00:08:01,197 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-14 00:08:01,298 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =2
+2021-08-14 00:08:01,355 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-14 00:08:01,430 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-14 00:08:01,449 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-14 00:08:01,864 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: skuDetails does not contain detail_list, response = 2
+2021-08-14 00:08:01,872 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Error refreshing inventory (querying prices of items). (response: 2:Unknown)
+2021-08-14 00:12:11,656 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-14 00:12:11,669 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: Start Setup
+2021-08-14 00:12:11,667 INFO  [receivers.BootCompletedReceiver]-[89] BootCompletedReceiver : Boot Completed
+2021-08-14 00:12:11,677 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: Binding Service.
+2021-08-14 00:12:11,682 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-14 00:12:11,682 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-14 00:12:11,736 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-14 00:12:11,800 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-14 00:12:11,802 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-14 00:12:12,345 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-14 00:12:12,346 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-14 00:12:12,346 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-14 00:12:12,478 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-14 00:12:12,480 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-14 11:24:34,710 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-14 11:24:34,733 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: Start Setup
+2021-08-14 11:24:34,834 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: Binding Service.
+2021-08-14 11:24:34,883 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-14 11:24:34,884 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-14 11:24:34,984 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =2
+2021-08-14 11:24:35,086 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =3
+2021-08-14 11:24:35,123 INFO  [purchase.GooglePurchaseHandler]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-14 11:24:35,202 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-14 11:24:35,217 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-14 11:24:36,054 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-14 11:24:36,055 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-14 11:24:36,055 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-14 11:24:36,385 INFO  [purchase.GooglePurchaseHandler]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-14 11:24:36,386 INFO  [purchase.GooglePurchaseHandler]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
+2021-08-14 11:26:57,041 INFO  [receivers.BootCompletedReceiver]-[89] BootCompletedReceiver : Boot Completed
+2021-08-14 11:26:57,042 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: QueryItemsDetails:: Start
+2021-08-14 11:26:57,053 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: Start Setup
+2021-08-14 11:26:57,064 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: Binding Service.
+2021-08-14 11:26:57,102 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: CheckBillingSupported, CheckIterations =1
+2021-08-14 11:26:57,103 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: startSetup:: Billing service connected.
+2021-08-14 11:26:57,115 INFO  [receivers.BootCompletedReceiver]-[89] GooglePurchaseHandler :: PurchaseCheck :: Setup Finished successfully, subscriptionsSupported = true
+2021-08-14 11:26:57,209 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: inapp
+2021-08-14 11:26:57,220 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 2
+2021-08-14 11:26:57,230 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 2
+2021-08-14 11:26:57,231 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: Getting items Details, item type: subs
+2021-08-14 11:26:57,232 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: items List Count = 6
+2021-08-14 11:26:57,239 INFO  [receivers.BootCompletedReceiver]-[89] IabHelper :: querySkuDetails:: responseList Count = 6
+2021-08-14 11:26:57,240 INFO  [receivers.BootCompletedReceiver]-[89] PurchaseCheck :: onQueryDetailsFinished ::, Result =Inventory refresh successful. (response: 0:OK)
